@@ -29,9 +29,7 @@ e.use(cors())
 //routes
 e.get('/',(req,res)=>
 {
-    res.send(<>
-    <h1>Saad's store backend hosting</h1>
-    </>)
+    res.send("<h1>Saad's store backend hosting</h1>")
 })
 e.use('/api',authRoutes)
 e.use('/api',userRoutes)
