@@ -31,4 +31,4 @@ e.use('/api',authRoutes)
 e.use('/api',userRoutes)
 
 
-e.listen(process.env.PORT||8000,()=>{console.log('listening express server')})
+e.listen(process.env.PORT||8000,()=>{console.log('listening express server from heroku')})
